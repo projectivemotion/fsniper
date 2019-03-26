@@ -7,6 +7,10 @@ libpcre (may be included in your distribution's pcre package)
 syslog (optional)
 
 To install fsniper:
+aclocal
+autoconf
+autoheader
+automake --add-missing
 ./configure
 make
 sudo make install
